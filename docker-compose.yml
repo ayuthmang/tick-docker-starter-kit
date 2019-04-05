@@ -1,20 +1,11 @@
 version: '3.7'
 
 services: 
-
-  grafana:
-    image: grafana/grafana:5.4.3
-    volumes: 
-      - ./grafana/data:/var/lib/grafana
-    ports:
-      - 3000:3000
       
   telegraf:
     image: telegraf:1.10
     volumes:
-      - ./grafana/data:/var/lib/grafana
-    ports:
-      - 3000:3000
+      - ./telegraf/conf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
 
   influxdb:
     image: influxdb:1.5.4
