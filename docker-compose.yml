@@ -33,3 +33,11 @@ services:
       KAPACITOR_INFLUXDB_0_URLS_0: http://influxdb:8086
     ports:
       - 9092:9092
+
+  # incase you want to use grafana instead of chronograf
+  # grafana:
+  #   image: grafana/grafana:5.4.3
+  #   volumes: 
+  #     - ./grafana/data:/var/lib/grafana
+  #   ports:
+  #     - 3000:3000
