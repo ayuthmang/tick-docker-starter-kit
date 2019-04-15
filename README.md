@@ -1,6 +1,6 @@
 # TICK-Docker-Starter-Kit
 
-TICK Stack on Docker Container.
+TICK stack on containers with ready to use.
 
 ## Folder structures
 
@@ -16,7 +16,7 @@ TICK Stack on Docker Container.
 To start a stack just type
 
 ```bash
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 ## Start services
@@ -24,7 +24,7 @@ docker-compose up -d
 Start TICK services
 
 ```bash
-docker-compose stop
+$ docker-compose stop
 ```
 
 ## Stop services
@@ -32,11 +32,11 @@ docker-compose stop
 Stop TICK services
 
 ```bash
-docker-compose stop
+$ docker-compose stop
 ```
 
 ## Stop and remove containers, networks, images, and volumes
 
 ```bash
-docker-compose down
+$docker-compose down
 ```
