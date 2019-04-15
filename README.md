@@ -4,8 +4,9 @@ TICK Stack on Docker Container.
 
 ## Folder structures
 
-| telegraf/conf   | Store config files    |
+| Path            | More details          |
 |-----------------|-----------------------|
+| telegraf/conf   | Store config files    |
 | influxdb/data   | Store influxdb data   |
 | chronograf/data | Store chronograf data |
 | kapacitor/data  | Store kapacitor data  |
