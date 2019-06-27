@@ -1,17 +1,17 @@
 version: '3.7'
 
-services: 
-      
+services:
+
   telegraf:
     image: telegraf:1.10
     volumes:
       - ./telegraf/conf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
 
   influxdb:
-    image: influxdb:1.5.4
-    volumes: 
+    image: influxdb:1.7.6
+    volumes:
       - ./influxdb/data:/var/lib/influxdb
-    ports: 
+    ports:
       - 8086:8086
 
   chronograf:
@@ -37,7 +37,7 @@ services:
   # incase you want to use grafana instead of chronograf
   # grafana:
   #   image: grafana/grafana:5.4.3
-  #   volumes: 
+  #   volumes:
   #     - ./grafana/data:/var/lib/grafana
   #   ports:
   #     - 3000:3000
