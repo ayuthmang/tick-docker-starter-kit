@@ -1,6 +1,6 @@
 # TICK-Docker-Starter-Kit
 
-TICK stack on containers with ready to use.
+TICK stack on containers with are ready to use.
 
 ## Folder structures
 
