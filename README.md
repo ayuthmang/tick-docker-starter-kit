@@ -1,6 +1,6 @@
 # TICK-Docker-Starter-Kit
 
-TICK stack on containers with are ready to use.
+TICK stack on containers which are ready to use.
 
 ## Folder structures
 
@@ -38,5 +38,5 @@ $ docker-compose stop
 ## Stop and remove containers, networks, images, and volumes
 
 ```bash
-$docker-compose down
+$ docker-compose down
 ```
