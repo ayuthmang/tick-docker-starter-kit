@@ -2,6 +2,9 @@
 
 TICK stack on containers which are ready to use.
 
+![TICK architecture](https://raw.githubusercontent.com/blacksourcez/tick-docker-starter-kit/master/docs/images/tick-architecture.png)
+
+
 ## Folder structures
 
 | Path            | More details          |
